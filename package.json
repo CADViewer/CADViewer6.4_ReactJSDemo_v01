@@ -1,0 +1,59 @@
+{
+  "name": "cadviewerApp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@eastdesire/jscolor": "^2.4.5",
+    "@material-ui/core": "^4.11.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.5.3",
+    "bootstrap-multiselect": "^0.9.15",
+    "canvg-browser": "^1.0.0",
+    "d3": "^6.3.1",
+    "imagetracerjs": "^1.2.6",
+    "jquery": "^3.5.1",
+    "jquery-multiselect": "^1.0.0",
+    "jquery-ui": "^1.12.1",
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "js-svg-path": "^1.1.0",
+    "knockout": "^3.5.1",
+    "list.js": "^2.3.0",
+    "mdbootstrap": "^4.19.2",
+    "multiselect": "^0.9.12",
+    "node-x2js": "0.0.2",
+    "qrcodejs": "^1.0.0",
+    "qtip2": "^3.0.3",
+    "rc-resize-observer": "^0.2.6",
+    "react": "^17.0.0",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-multiselect": "^2.4.1",
+    "react-dom": "^17.0.0",
+    "react-scripts": "3.4.4",
+    "requirejs": "^2.3.6",
+    "snapsvg-cjs": "0.0.6",
+    "x2js": "^3.4.0"
+  },
+  "scripts": {
+    "start": "set PORT=8000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
