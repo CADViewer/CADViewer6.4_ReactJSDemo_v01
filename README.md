@@ -6,7 +6,7 @@ Download NodeJS server:  Go to:  https://cadviewer.com/download/, receive email 
 
 Download AutoXchange 2020:  Go to: https://cadviewer.com/download/, receive email and pull from AutoXchange 2020 Downloads
 
-Use this CADViewer 6.4 download as the front-end CADViewer for the back-end NodeJS server. 
+Use this Github CADViewer 6.4 download as the front-end CADViewer for the back-end NodeJS server. 
 
 Read the Guide on how to create hotspots (Space Objects), https://cadviewer.com/highlight/main/ , it outlines how spaces can be processed on a drawing to create interactive objects. 
 
