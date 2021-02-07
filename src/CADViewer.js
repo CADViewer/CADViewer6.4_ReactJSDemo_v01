@@ -12,8 +12,6 @@ import './CADViewer_component.css';
 //import * as cadviewer from "./cadviewer/app/cv/cv-pro/cadviewer_base_pro_6_4_06.js";
 import * as cadviewer from "./cadviewer/app/cv/cv-pro/cadviewer_react.min.js";
 
-
-
 // In the component that visualizes CADViewer, we need CADViewer style sheet, bootstrap, bootstrap-multiselect and jquery.qtip
 import './cadviewer/app/css/cvjs_6.1.0.css';
 import './cadviewer/app/css/bootstrap.min.css';
@@ -317,10 +315,6 @@ export function cvjs_ObjectSelectedHyperlink(){
 };
 export function cvjs_ObjectSelectedStickyNotes(){
 };
-
-
-
-
 
 class CADViewer extends Component {
 
