@@ -8,6 +8,17 @@ Download AutoXchange 2020:  Go to: https://cadviewer.com/download/, receive emai
 
 Use this CADViewer 6.4 download as the front-end CADViewer for the back-end NodeJS server. 
 
+Read the Guide on how to create hotspots (Space Objects), https://cadviewer.com/highlight/main/ , it outlines how spaces can be processed on a drawing to create interactive objects. 
+
+Read the Guide on how to modify hotspots  (Space Objects), https://cadviewer.com/highlight2/main/, this will help you work with the code in this sample. 
+
+The general documentation on CADViewer is found at: https://cadviewer.com/cadviewertechdocs/
+
+The general documentaiton on AutoXchange 2020 is found at: https://tailormade.com/ax2020techdocs/
+
+The CADViewer API is found at: https://cadviewer.com/cadviewerproapi/global.html 
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
