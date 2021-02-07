@@ -100,6 +100,50 @@ function show_object_in_group(){
 }
 
 
+////////// FETCH ALL SPACE OBJECTS 
+
+
+function display_all_objects(){
+/*
+ * Return a JSON structure with  all Space Object content, each entry is of the form: <br>
+ * 	SpaceObjects :[  	{	"path":   path, <br>
+ *								"tags": tags, <br>
+ *								"node": node, <br>
+ *								"area": area, <br>
+ *								"outerhtml": outerHTML, <br>
+ *								"occupancy": occupancy, <br>
+ *								"name": name, <br>
+ *								"type": type, <br>
+ *								"id": id, <br>
+ *								"defaultcolor": defaultcolor, <br>
+ *								"layer": layer, <br>
+ *								"group": group, <br>
+ *								"linked": linked, <br>
+ *								"attributes": attributes, <br>
+ *								"attributeStatus": attributeStatus, <br>
+ *								"displaySpaceObjects": displaySpaceObjects, <br>
+ *								"translate_x": translate_x, <br>
+ *								"translate_y": translate_y, <br>
+ *								"scale_x": scale_x ,<br>
+ *								"scale_y": scale_y ,<br>
+ *								"rotate": rotate, <br>
+ *								"transform": transform} <br> ]
+ * @param {string} spaceID - Id of the Space Object to return
+ * @return {Object} jsonSpaceObject - Object with all space objects content
+ */
+
+  //   get json obhect with all spaces processed from drawing
+  var allSpaceObjects = cadviewer.cvjs_returnAllSpaceObjects();
+
+  var myString = "";
+  for (var spc in allSpaceObjects.SpaceObjects){
+    console.log(spc);
+    myString += "("+allSpaceObjects.SpaceObjects[spc].id+", "+allSpaceObjects.SpaceObjects[spc].area+")";
+  }
+
+  window.alert("The spaces with area (id,area): "+myString);
+
+}
 
 ////////// HIGHLIGHT METHODS START
 
@@ -1037,6 +1081,7 @@ class CADViewerHelperMethods extends Component {
 		<button className="w3-button demo" onClick={highlight_space_type}>Space Type</button>
 		<button className="w3-button demo" onClick={highlight_space_id}>Space ID</button>
     <button className="w3-button demo" onClick={clear_space_highlight}>Clear All</button>
+    <button className="w3-button demo" onClick={display_all_objects}>All:(id,area)</button>
     <br/><strong>Custom Interactive Canvas Samples:&nbsp;</strong><canvas id="dummy" width="10" height="10"></canvas>
 		<button className="w3-button demo" onClick={cadviewerCanvasMethod01}>Canvas-DRAG (console)</button>
 		<button className="w3-button demo" onClick={cadviewerCanvasMethod02}>Canvas-CLICK (console)</button>
