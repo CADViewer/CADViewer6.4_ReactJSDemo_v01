@@ -2,9 +2,9 @@
 
 Basic install instruction: https://cadviewer.com/cadviewertechdocs/handlers/reactjs/
 
-Download NodeJS server:  Go to:  https://cadviewer.com/downloads/  , receive email and pull from CADViewer Handler/Connector Scripts
+Download NodeJS server:  Go to:  https://cadviewer.com/download/, receive email and pull from CADViewer Handler/Connector Scripts
 
-Download AutoXchange 2020:  Go to: https://cadviewer.com/download/ , receive email and pull from AutoXchange 2020 Downloads
+Download AutoXchange 2020:  Go to: https://cadviewer.com/download/, receive email and pull from AutoXchange 2020 Downloads
 
 Use this CADViewer 6.4 download as the front-end CADViewer for the back-end NodeJS server. 
 
