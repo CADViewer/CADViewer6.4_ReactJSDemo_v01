@@ -1,6 +1,6 @@
 ## Install instructions:
 
-Basic install instruction: https://cadviewer.com/cadviewertechdocs/handlers/reactjs/
+CADViewer ReactJS install instruction: https://cadviewer.com/cadviewertechdocs/handlers/reactjs/
 
 Download NodeJS server:  Go to:  https://cadviewer.com/download/, receive email and pull from CADViewer Handler/Connector Scripts
 
