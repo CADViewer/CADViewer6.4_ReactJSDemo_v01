@@ -6,13 +6,6 @@ import CADViewerSpaceObjects from './CADViewerSpaceObjects';
 import CADViewerHelperMethods from './CADViewerHelperMethods';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <CADViewer />
-  </React.StrictMode>,
-  document.getElementById('CADViewerCanvas')
-);
-
 
 ReactDOM.render(
   <React.StrictMode>
@@ -27,6 +20,16 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('CADViewerHelperMethods')
 );
+
+
+ReactDOM.render(
+  <React.StrictMode>
+    <CADViewer />
+  </React.StrictMode>,
+  document.getElementById('CADViewerCanvas')
+);
+
+
 
 
 

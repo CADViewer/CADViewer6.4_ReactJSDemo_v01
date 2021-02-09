@@ -407,6 +407,7 @@
 				<LoadLink>Load All Image Links</LoadLink>
 				<InsertLink>Insert Image Links</InsertLink>
 				<SaveLink>Save All Image Links</SaveLink>
+				<ClearLink>Clear All Image Links</ClearLink>
 				<QuickCount>Quick Count</QuickCount>
 				<CountSum>Summary Quick Count</CountSum>
 				<ClearCount>Clear Quick Count</ClearCount>
@@ -926,6 +927,7 @@
 				<LoadLink> Cargar todos los enlaces de imágenes </LoadLink>
 				<InsertLink> Insertar enlaces de imagen </InsertLink>
 				<SaveLink> Guardar todos los enlaces de imágenes </SaveLink>
+				<ClearLink>Borrar todos los enlaces de imágenes</ClearLink>
 				<QuickCount> Cuenta rápida </QuickCount>
 				<CountSum> Cuenta rápida de resumen </CountSum>
 				<ClearCount> Borrar conteo rápido </ClearCount>
@@ -1446,6 +1448,7 @@
 			<LoadLink>加载所有图像链接</LoadLink>
 			<InsertLink>插入图像链接</InsertLink>
 			<SaveLink>保存所有图像链接</SaveLink>
+				<ClearLink>清除所有图像链接</ClearLink>
 			<QuickCount>快速计数</QuickCount>
 			<CountSum>摘要快速计数</CountSum>
 			<ClearCount>清除快速计数</ClearCount>
@@ -1966,6 +1969,7 @@
 			<LoadLink>加載所有圖像鏈接</LoadLink>
 			<InsertLink>插入圖像鏈接</InsertLink>
 			<SaveLink>保存所有圖像鏈接</SaveLink>
+				<ClearLink>清除所有圖像鏈接</ClearLink>
 			<QuickCount>快速計數</QuickCount>
 			<CountSum>摘要快速計數</CountSum>
 			<ClearCount>清除快速計數</ClearCount>
@@ -2486,6 +2490,7 @@
 				<LoadLink> Carregar todos os links de imagens </LoadLink>
 				<InsertLink> Inserir links de imagem </InsertLink>
 				<SaveLink> Salvar todos os links de imagens </SaveLink>
+				<ClearLink>Limpar todos os links de imagem</ClearLink>
 				<QuickCount> Contagem rápida </QuickCount>
 				<CountSum> Contagem rápida de resumo </CountSum>
 				<ClearCount> Limpar contagem rápida </ClearCount>
@@ -3007,6 +3012,7 @@
 				<LoadLink> 모든 이미지 링크로드 </LoadLink>
 				<InsertLink> 이미지 링크 삽입 </InsertLink>
 				<SaveLink> 모든 이미지 링크 저장 </SaveLink>
+				<ClearLink>모든 이미지 링크 지우기</ClearLink>
 				<QuickCount> 빠른 카운트 </QuickCount>
 				<CountSum> 요약 빠른 계산 </CountSum>
 				<ClearCount> 빠른 카운트 지우기 </ClearCount>
@@ -3528,6 +3534,7 @@
 				<LoadLink> Muat Semua Link Gambar </LoadLink>
 				<InsertLink> Sisipkan Link Gambar </InsertLink>
 				<SaveLink> Simpan Semua Link Gambar </SaveLink>
+				<ClearLink>Hapus Semua Link Gambar</ClearLink>
 				<QuickCount> Hitungan Cepat </QuickCount>
 				<CountSum> Hitung Cepat Ringkasan </CountSum>
 				<ClearCount> Hapus Quick Count </ClearCount>
@@ -4047,6 +4054,7 @@
 				<LoadLink> Alle Bildlinks laden </LoadLink>
 				<InsertLink> Bildlinks einfügen </InsertLink>
 				<SaveLink> Alle Bildlinks speichern </SaveLink>
+				<ClearLink>Alle Bildlinks löschen</ClearLink>
 				<QuickCount> Quick Count </QuickCount>
 				<CountSum> Zusammenfassung Quick Count </CountSum>
 				<ClearCount> Schnellzählung löschen </ClearCount>			
@@ -4567,6 +4575,7 @@
 				<LoadLink> Charger tous les liens d'image </LoadLink>
 				<InsertLink> Insérer des liens d'image </InsertLink>
 				<SaveLink> Enregistrer tous les liens d'image </SaveLink>
+				<ClearLink>Effacer tous les liens d'image</ClearLink>
 				<QuickCount> Compte rapide </QuickCount>
 				<CountSum> Compte rapide récapitulatif </CountSum>
 				<ClearCount> Effacer le décompte rapide </ClearCount>
